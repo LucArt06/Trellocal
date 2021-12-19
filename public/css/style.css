@@ -1,0 +1,306 @@
+body {
+    background-color: #26acff;
+}
+.fontStyle {
+    font-family: "Lobster", cursive;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.btncss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btnCssWhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background: #0280ced6;
+    margin: 0;
+    padding: 0;
+    box-shadow: 1px 1px 2px whitesmoke;
+}
+
+.imgcss {
+    width: 20px;
+    margin: 0;
+}
+
+/*
+* NAV BAR
+*/
+.navbar {
+    background-color: #0280ced6;
+    color: whitesmoke;
+}
+
+#navbarDropdown {
+    color: whitesmoke;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/*
+* CONTAINER BOARD HOME
+*/
+.boardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 26px 0;
+}
+
+.boardContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    height: 100px;
+    background: url("../img/imgTab.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 10px auto;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: black 1px 1px;
+    border-radius: 20px;
+}
+.boardContain:hover {
+    text-decoration: none;
+    color: #3cb9fc;
+    transform: rotate(2deg);
+    transition: 0.7s;
+}
+
+.card-header {
+    background-color: #0c97ed;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.btn {
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #0280ced6;
+    border-color: #0280ced6;
+    height: 50px;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: #5c1bfff8;
+    border-color: #5c1bfff8;
+}
+
+.btn-css-board {
+    background: none;
+    border: none;
+}
+
+/*
+* MODALE
+*/
+.modal-header {
+    font-family: "Lobster", cursive;
+    background-color: #0280ced6;
+}
+
+.premium {
+    font-weight: 800;
+}
+
+/*
+* LIST CONTAINER BOARD PAGE
+*/
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+}
+
+.listTitle {
+    font-size: 35px;
+}
+
+.display-4 {
+    font-family: "Lobster", cursive;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.inputModify {
+    height: 25px;
+    width: 119px;
+    display: flex;
+    margin: 0 0 0 5px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnSave {
+    height: 25px;
+    width: 59px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 4px 4px 8px rgb(22, 7, 142);
+}
+
+/*
+* WELCOME PAGE
+*/
+
+.containerWelcome {
+    position: relative;
+    width: auto;
+    height: 760px;
+    background: url("../img/welcome.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.textTrello {
+    font-family: "Lobster", cursive;
+    color: whitesmoke;
+    font-size: 80px;
+    width: 500px;
+    margin: 15px;
+}
+
+.titleTrello {
+    position: absolute;
+    bottom: 302px;
+    right: 11px;
+    color: whitesmoke;
+    font-size: 80px;
+}
+
+.defileParent {
+    display: block;
+    color: whitesmoke;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: auto;
+    font-size: 20px;
+}
+.defile {
+    display: block;
+    -webkit-animation: linear marqueelike 20s infinite;
+    -moz-animation: linear marqueelike 20s infinite;
+    -o-animation: linear marqueelike 20s infinite;
+    -ms-animation: linear marqueelike 20s infinite;
+    animation: linear marqueelike 20s infinite;
+    margin-left: -100%;
+    padding: 0 5px;
+    text-align: left;
+    height: 25px;
+}
+
+.defile:after {
+    content: attr(data-text);
+    position: absolute;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+@-webkit-keyframes marqueelike {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    99.99% {
+        margin-left: -100%;
+    }
+}
+@-moz-keyframes marqueelike {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    99.99% {
+        margin-left: -100%;
+    }
+}
+@-o-keyframes marqueelike {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    99.99% {
+        margin-left: -100%;
+    }
+}
+@-ms-keyframes marqueelike {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    99.99% {
+        margin-left: -100%;
+    }
+}
+@keyframes marqueelike {
+    0%,
+    100% {
+        margin-left: 0;
+    }
+    99.99% {
+        margin-left: -100%;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .defileParent {
+        display: block;
+        margin: 3em auto;
+        overflow: hidden;
+        position: relative;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .defile {
+        display: block;
+        -webkit-animation: linear marqueelike 15s infinite;
+        -moz-animation: linear marqueelike 15s infinite;
+        -o-animation: linear marqueelike 15s infinite;
+        -ms-animation: linear marqueelike 15s infinite;
+        animation: linear marqueelike 15s infinite;
+        margin-left: -100%;
+        padding: 0 5px;
+        text-align: left;
+        height: 25px;
+    }
+}
